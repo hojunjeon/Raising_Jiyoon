@@ -1,0 +1,12 @@
+:root {
+  --kakao-yellow: #FEE500;
+  --chat-bg: #B2C7DA;
+  --bubble-mine: #FEE500;
+  --bubble-other: #FFFFFF;
+  --header-bg: #1E1E1E;
+  --input-bg: #F5F5F5;
+  --choice-btn: #FFFFFF;
+  --choice-btn-border: #CCCCCC;
+  --stat-bar-bg: #E0E0E0;
+  --font-main: 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif;
+}

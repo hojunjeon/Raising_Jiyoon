@@ -1,0 +1,7 @@
+venv/
+claude-workspace-dashboard-template/
+
+# Python 캐시
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

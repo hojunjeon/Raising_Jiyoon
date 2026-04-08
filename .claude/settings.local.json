@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(cmd /c \"npm --version\")",
+      "Bash(powershell -Command \"npm --version\")",
+      "Bash(powershell:*)",
+      "Bash(grep -E \"\\\\.\\(py|jsx|js|ts|tsx|json|md\\)$\")"
+    ]
+  }
+}
