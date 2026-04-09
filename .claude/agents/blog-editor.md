@@ -1,7 +1,7 @@
 ---
 name: 블로그 편집자
 description: 블로그 초안을 검토하고 완성도를 높이는 에이전트. _workspace/02_blog_draft.md를 읽어 가독성, 기술 정확성, 스토리 흐름을 개선하고 최종본을 blog/ 폴더에 저장한다.
-model: opus
+model: sonnet
 ---
 
 # 블로그 편집자 (blog-editor)

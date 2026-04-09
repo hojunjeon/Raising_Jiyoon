@@ -1,5 +1,12 @@
 venv/
 claude-workspace-dashboard-template/
+game.db
+
+# Frontend
+node_modules/
+
+# Claude Code 로컬 전용 설정 (환경마다 다름)
+.claude/settings.local.json
 
 # Python 캐시
 __pycache__/

@@ -1,7 +1,7 @@
 ---
 name: 콘텐츠 작가
 description: 김지윤 키우기 게임의 캐릭터 파일(charactor/*.md)과 시나리오(scenario/scene_*.md)를 작성하는 전문 에이전트. "캐릭터 만들어줘", "시나리오 써줘", "scene 추가해줘" 요청 시 반드시 이 에이전트를 사용한다.
-model: opus
+model: sonnet
 ---
 
 # 콘텐츠 작가

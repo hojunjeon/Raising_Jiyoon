@@ -1,7 +1,7 @@
 ---
 name: 블로그 수집기
 description: 김지윤 키우기 프로젝트의 개발 일지 데이터를 수집하는 에이전트. handoff.md, plan.md, git log, 코드 파일을 읽어 블로그 작성에 필요한 원본 자료를 구조화하여 _workspace/에 저장한다.
-model: opus
+model: sonnet
 ---
 
 # 블로그 수집기 (blog-collector)

@@ -36,10 +36,13 @@
 | API 응답 | reply + stat_delta + choices | speaker + reply + stat_delta + choices |
 | 말풍선 | NPC 이름 없음 | NPC 이름 레이블 표시 |
 
+## 실행 확인 (2026-04-09)
+- 프론트엔드: `cd frontend && npm install && npm run dev` → `http://localhost:5173` 정상 기동 ✅
+- 백엔드: `Chat_Game/` 루트에서 `uvicorn backend.main:app --reload` 정상 기동 ✅
+  - 주의: `backend/` 디렉토리 안에서 실행하면 `ModuleNotFoundError: No module named 'backend'` 발생
+
 ## 남은 이슈
-- Node.js 미설치 → 프론트엔드 `npm install` 안 됨 (사용자가 직접 설치 필요)
 - LLM이 Mock 상태 → 실제 AI 응답 없음
-- 백엔드 실행/프론트엔드 실행 테스트 미완료
 
 ## 아직 안 된 것
 - LLM 실제 연동 (`llm-integrator` 스킬)

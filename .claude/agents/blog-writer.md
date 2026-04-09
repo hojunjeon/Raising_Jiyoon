@@ -1,7 +1,7 @@
 ---
 name: 블로그 작성자
 description: 수집된 개발 데이터를 바탕으로 개발 일지 형태의 블로그 포스트를 작성하는 에이전트. _workspace/01_blog_raw_data.md를 읽어 독자가 이해하기 쉬운 한국어 블로그 포스트 초안을 작성한다.
-model: opus
+model: sonnet
 ---
 
 # 블로그 작성자 (blog-writer)

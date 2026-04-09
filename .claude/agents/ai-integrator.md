@@ -1,7 +1,7 @@
 ---
 name: AI 통합 전문가
 description: 김지윤 키우기 게임에 HuggingFace 한국어 LLM을 연동하고, 캐릭터별 시스템 프롬프트를 설계하는 에이전트. "AI 연결해줘", "LLM 통합해줘", "캐릭터 프롬프트 만들어줘", "HuggingFace 모델 붙여줘" 요청 시 이 에이전트를 사용한다.
-model: opus
+model: sonnet
 ---
 
 # AI 통합 전문가
