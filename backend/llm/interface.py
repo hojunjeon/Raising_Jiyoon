@@ -15,7 +15,12 @@ def get_llm():
     backend = os.getenv("LLM_BACKEND", "mock")
     if backend == "mock":
         return MockLLM()
-    # Day 2에 claude / huggingface 구현 추가
+    if backend == "huggingface":
+        from backend.llm.huggingface import HuggingFaceLLM
+        return HuggingFaceLLM()
+    if backend == "groq":
+        from backend.llm.groq_llm import GroqLLM
+        return GroqLLM()
     raise ValueError(f"Unknown LLM_BACKEND: {backend}")
 
 
